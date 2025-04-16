@@ -22,13 +22,7 @@ const ProductCard = ({ product, onAddToCart }) => {
           />
         </div>
       }
-      style={{
-        borderRadius: '8px',
-        boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)',
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'space-between',
-      }}
+      style={styles.cardContainer}
     >
       <h3>{product.name}</h3>
       <p>{product.description}</p>
@@ -46,7 +40,7 @@ const ProductCard = ({ product, onAddToCart }) => {
         </Col>
         {/* Add to Cart Button */}
         <Col>
-          <Button type="primary" onClick={handleAddToCart}>
+          <Button type="primary" style={{backgroundColor:'#A029C2'}} onClick={handleAddToCart}>
             Add to Cart
           </Button>
         </Col>
@@ -57,6 +51,13 @@ const ProductCard = ({ product, onAddToCart }) => {
 
 // --- Styles ---
 const styles = {
+  cardContainer:{
+    borderRadius: '8px',
+    boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)',
+    display: 'flex',
+    flexDirection: 'column',
+      justifyContent: 'space-between',
+  },
   countContainer: {
     display: 'flex',
     alignItems: 'center',

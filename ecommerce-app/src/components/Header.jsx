@@ -40,7 +40,7 @@ const styles = {
     justifyContent: 'space-between',
     alignItems: 'center',
     padding: '10px 20px',
-    backgroundColor: '#ffffff',
+    backgroundColor: '#A029C2',
     position: 'sticky',
     top: 0,
     zIndex: 1000,
@@ -51,7 +51,7 @@ const styles = {
   title: {
     fontSize: '28px',
     fontWeight: 'bold',
-    color: '#333',
+    color: '#fff',
     margin: 0,
   },
   cartButton: {

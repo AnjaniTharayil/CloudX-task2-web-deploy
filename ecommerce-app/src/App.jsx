@@ -51,12 +51,12 @@ const styles = {
   content: {
     marginTop: '64px', // Offset content from the fixed header (default Ant Design height: 64px)
     padding: '20px',
-    backgroundColor: '#f5f5f5',
+    backgroundColor: '#E7DDFF',
     minHeight: 'calc(100vh - 64px - 70px)', // Adjust height accounting for header and footer height
   },
   footer: {
     textAlign: 'center',
-    backgroundColor: '#333',
+    backgroundColor: '#A029C2',
     color: '#fff',
     padding: '20px',
   },
