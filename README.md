@@ -16,15 +16,13 @@ This project is manually deployed using **AWS CloudFormation**, **S3**, and **Cl
 
 - **cloudFront deployed Screenshot**
 
-  ![cloudFront deployed Screenshot](./assets/cloudFrontApp.png)
+  ![cloudFront deployed Screenshot](./ecommerce-app/assets/cloudFrontApp.png)
 
 ---
 
 ##  cloudFront Invalidate config Screenshot
 
-  ![cloudFrontInvalidate Screenshot](./assets/cloudfrontInvalidate.png)
-
-> 📌 Make sure the image file (`screenshot.png`) exists at the path `./assets/screenshot.png`. Adjust the path as needed if it's stored elsewhere.
+  ![cloudFrontInvalidate Screenshot](./ecommerce-app/assets/cloudfrontInvalidate.png)
 
 ---
 ## Deployment Process (Overview)
