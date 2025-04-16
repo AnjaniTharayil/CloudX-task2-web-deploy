@@ -48,13 +48,14 @@ This project is manually deployed using **AWS CloudFormation**, **S3**, and **Cl
    ```bash
    npm run build
    ```
-# React App Deployment (Automated)
-
-# React App Deployment with AWS CDK
+# React App Deployment (Automated) - React App Deployment with AWS CDK
 
 Deployment of a React application using **AWS CDK**, **S3**, and **CloudFront**, including automatic **cache invalidation**.
 
-## ⚙️ Setup & Deployment
+- **CloudFront Distribution URL:**  
+  [https://d24wgdym3l5ulk.cloudfront.net/](https://dtvx9c0bha2qn.cloudfront.net/)
+
+##Setup & Deployment
 
 ### 1. **Install Dependencies**
 
@@ -67,19 +68,16 @@ Deployment of a React application using **AWS CDK**, **S3**, and **CloudFront**,
   ```
 ### 3. **Build & Deploy React App**
 
+    * Builds React app
+    * Uploads to S3
+    * Deploys CDK stack
+    * Invalidates CloudFront cache
+
   ```bash
   npm run aws:deploy
-
   ```
-    Builds React app
 
-    Uploads to S3
-
-    Deploys CDK stack
-
-    Invalidates CloudFront cache
-
-### 4. ** Access Your App**
+### 4. **Access Your App**
 
   After deployment, the terminal will output the CloudFront URL. Open it in your browser to view the live app.
 
