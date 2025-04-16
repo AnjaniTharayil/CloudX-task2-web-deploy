@@ -20,11 +20,18 @@ This project is manually deployed using **AWS CloudFormation**, **S3**, and **Cl
 
 ---
 
-##  cloudFront Invalidate config Screenshot
+##  CloudFront Invalidate config
+
+  Specified /* to invalidate all objects (updated files). 
 
   ![cloudFrontInvalidate Screenshot](./ecommerce-app/assets/cloudfrontInvalidate.png)
 
+  checked and can see the changes updated on app
+
+  ![modification Screenshot](./ecommerce-app/assets/modifiedUI.png)
+
 ---
+
 ## Deployment Process (Overview)
 
 1. Build the React application:
