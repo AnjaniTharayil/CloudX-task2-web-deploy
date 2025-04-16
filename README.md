@@ -55,7 +55,7 @@ Deployment of a React application using **AWS CDK**, **S3**, and **CloudFront**,
 - **CloudFront Distribution URL:**  
   [https://d24wgdym3l5ulk.cloudfront.net/](https://dtvx9c0bha2qn.cloudfront.net/)
 
-##Setup & Deployment
+## Setup & Deployment
 
 ### 1. **Install Dependencies**
 
@@ -77,9 +77,9 @@ Deployment of a React application using **AWS CDK**, **S3**, and **CloudFront**,
   npm run aws:deploy
   ```
 
-### 4. **Access Your App**
+### 4. **Access App**
 
-  After deployment, the terminal will output the CloudFront URL. Open it in your browser to view the live app.
+  After deployment, the terminal will output the CloudFront URL. Open it in browser to view the live app.
 
 ### 5. **Cleanup**
 
